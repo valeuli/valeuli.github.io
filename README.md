@@ -11,7 +11,6 @@ For me, software is not only about making something work. It should solve a real
 <aside class="portfolio-sidebar" markdown="1">
 
 ## Technologies
-
 - **Languages:** TypeScript, Python
 - **Backend:** Node.js, Hono, FastAPI, Django
 - **Databases:** PostgreSQL, SQL, MongoDB
@@ -21,12 +20,9 @@ For me, software is not only about making something work. It should solve a real
 - **Frontend fundamentals:** React, HTML, CSS
 
 ## Let's connect
-
 - [LinkedIn](https://www.linkedin.com/in/valentinajrm/)
 - [GitHub](https://github.com/valeuli)
-- Email: julianavramirezm@gmail.com
-
-
+- [Email me](mailto:julianavramirezm@gmail.com)
 </aside>
 
 <main class="portfolio-content" markdown="1">
