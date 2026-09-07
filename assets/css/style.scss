@@ -42,7 +42,7 @@ body {
 
 .portfolio-grid {
   display: grid;
-  grid-template-columns: 260px minmax(0, 1fr);
+  grid-template-columns: 290px minmax(0, 1fr);
   gap: 3.5rem;
   align-items: start;
 }
@@ -54,6 +54,11 @@ body {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 16px;
+  overflow-wrap: anywhere;
+}
+
+.portfolio-sidebar li {
+  margin-bottom: 0.4rem;
 }
 
 .portfolio-sidebar h2 {
