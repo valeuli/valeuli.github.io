@@ -6,6 +6,31 @@ I care deeply about the quality of what I build. Before delivering a feature, I 
 
 For me, software is not only about making something work. It should solve a real problem, reduce friction, and deliver value to the people using it.
 
+<div class="portfolio-grid">
+
+<aside class="portfolio-sidebar" markdown="1">
+
+## Technologies
+
+- **Languages:** TypeScript, Python
+- **Backend:** Node.js, Hono, FastAPI, Django
+- **Databases:** PostgreSQL, SQL, MongoDB
+- **Distributed systems:** Cloudflare Workers, Cloudflare Queues, AWS Lambda, Amazon SQS
+- **Development:** REST APIs, asynchronous processing, automated testing, Docker, CI/CD
+- **AI integrations:** OpenAI APIs and prompt-based workflows
+- **Frontend fundamentals:** React, HTML, CSS
+
+## Let's connect
+
+- [LinkedIn](https://www.linkedin.com/in/valentinajrm/)
+- [GitHub](https://github.com/valeuli)
+- Email: julianavramirezm@gmail.com
+
+
+</aside>
+
+<main class="portfolio-content" markdown="1">
+
 ## How I work
 
 I enjoy collaborating with Product, Design, Data, Customer Success, and Engineering teams. I ask questions when requirements are unclear, consider whether customer-specific requests can become reusable product capabilities, and balance product value with reliability, maintainability, and delivery time.
@@ -51,23 +76,9 @@ Working in Customer Success was an important part of my professional development
 
 That experience still influences how I build software today. I think about the people using the product, the teams supporting it, the value we want to deliver, and the metric or behavior we expect to improve with each technical decision.
 
-## Technologies
-
-- **Languages:** TypeScript, Python
-- **Backend:** Node.js, Hono, FastAPI, Django
-- **Databases:** PostgreSQL, SQL, ORM-based architectures, MongoDB
-- **Distributed systems:** Cloudflare Workers, Cloudflare Queues, AWS Lambda, AWS queues
-- **Development:** REST APIs, asynchronous processing, automated testing, Docker, CI/CD
-- **AI integrations:** OpenAI APIs, prompt-based workflows, and backend services that support AI-powered product features
-- **Frontend fundamentals:** React, HTML, and CSS
-
 ## What I want to build
 
 I'm interested in products that solve real problems for users, especially those involving APIs, distributed systems, asynchronous processing, integrations, performance, and applied AI.
 
 I'm looking for a collaborative team where I can continue growing in architecture, infrastructure, product development, and frontend fundamentals while delivering meaningful value.
 
-## Let's connect
-
-- [LinkedIn](https://www.linkedin.com/in/valentinajrm/)
-- Email: julianavramirezm@gmail.com
