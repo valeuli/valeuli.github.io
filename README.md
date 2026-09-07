@@ -45,11 +45,7 @@ I worked with TypeScript, AWS queues, and an external financial provider to proc
 
 ## My journey into engineering
 
-My path into software engineering was not completely traditional.
-
-I began studying Systems Engineering in Venezuela. After moving to Colombia, I started my degree again while building my professional career. I first worked as a Backend Developer at Panda Group and later joined Platzi through a Customer Success role while continuing to prepare myself for the opportunity to move into engineering.
-
-In May 2021, I transitioned internally into Platzi's backend engineering team.
+My path into software engineering was not completely traditional. I began studying Systems Engineering in Venezuela. After moving to Colombia, I started my degree again while building my professional career. I first worked as a Backend Developer at Panda Group and later joined Platzi through a Customer Success role while continuing to prepare myself for the opportunity to move into engineering.
 
 Working in Customer Success was an important part of my professional development. It allowed me to see a technology product from outside engineering and understand what happens when software problems reach users and the teams responsible for supporting them.
 
@@ -74,5 +70,4 @@ I'm looking for a collaborative team where I can continue growing in architectur
 ## Let's connect
 
 - [LinkedIn](https://www.linkedin.com/in/valentinajrm/)
-- [GitHub](https://github.com/valeuli)
 - Email: julianavramirezm@gmail.com
