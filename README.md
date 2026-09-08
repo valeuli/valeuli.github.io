@@ -16,13 +16,13 @@ For me, software is not only about making something work. It should solve a real
 <aside class="portfolio-sidebar" markdown="1">
 
 ## Technologies
-- **Languages:** TypeScript, Python
-- **Backend:** Node.js, Hono, FastAPI, Django
-- **Databases:** PostgreSQL, SQL, MongoDB
-- **Distributed systems:** Cloudflare Workers, Cloudflare Queues, AWS Lambda, Amazon SQS
-- **Development:** REST APIs, asynchronous processing, automated testing, Docker, CI/CD
-- **AI integrations:** OpenAI APIs and prompt-based workflows
-- **Frontend fundamentals:** React, HTML, CSS
+- Languages: TypeScript, Python
+- Backend: Node.js, Hono, FastAPI, Django
+- Databases:** PostgreSQL, SQL, MongoDB
+- Distributed systems: Cloudflare Workers, Cloudflare Queues, AWS Lambda, Amazon SQS
+- Development: REST APIs, asynchronous processing, automated testing, Docker, CI/CD
+- AI integrations: OpenAI APIs and prompt-based workflows
+- Frontend fundamentals: React, HTML, CSS
 
 ## Let's connect
 - [LinkedIn](https://www.linkedin.com/in/valentinajrm/)
