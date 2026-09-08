@@ -24,9 +24,6 @@ For me, software is not only about making something work. It should solve a real
 - **Frontend fundamentals:** React, HTML, CSS
 
 ## Let's connect
-- [LinkedIn](https://www.linkedin.com/in/valentinajrm/)
-- [GitHub](https://github.com/valeuli)
-- [Email me](mailto:julianavramirezm@gmail.com)
 <a
   class="resume-button"
   href="https://drive.google.com/file/d/19p29UXPaqdtQRe15mi4JaE5JDZr2euVS/view"
@@ -35,7 +32,10 @@ For me, software is not only about making something work. It should solve a real
 >
   Download my resume
 </a>
-</aside>
+
+- [LinkedIn](https://www.linkedin.com/in/valentinajrm/)
+- [GitHub](https://github.com/valeuli)
+- [Email me](mailto:julianavramirezm@gmail.com)
 
 <main class="portfolio-content" markdown="1">
 
@@ -106,7 +106,7 @@ That experience still influences how I build software today. I think about the p
 
 ## What I want to build
 
-I'm interested in products that solve real problems for users, especially those involving APIs, distributed systems, asynchronous processing, integrations, performance, and applied AI.
+I'm interested in products that solve real problems for users, especially those involving APIs, distributed systems, asynchronous processing, integrations, performance, and AI-powered features.
 
 I'm looking for a collaborative team where I can continue growing in architecture, infrastructure, product development, and frontend fundamentals while delivering meaningful value.
 
