@@ -15,9 +15,14 @@
   --link: #87579a;
 }
 
+html,
 body {
+  background: #f5eaf3 !important;
   color: var(--text);
-  min-height: 100Stylus vh;
+}
+
+body {
+  min-height: 100vh;
   font-family: "DM Sans", sans-serif;
 }
 
@@ -51,6 +56,7 @@ body {
 .main-content {
   max-width: 1100px;
   color: var(--text);
+  background: transparent;
 }
 
 .portfolio-grid {
@@ -64,11 +70,11 @@ body {
   position: sticky;
   top: 2rem;
   padding: 1.5rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background: #ead8ec;
+  border: 1px solid #d6bddb;
   border-radius: 16px;
   overflow-wrap: anywhere;
-  box-shadow: 0 6px 18px rgba(93, 69, 104, 0.08);
+  box-shadow: 0 6px 18px rgba(93, 69, 104, 0.1);
 }
 
 .portfolio-sidebar li {
@@ -151,6 +157,40 @@ body {
 
 .project-card p:last-child {
   margin-bottom: 0;
+}
+
+/* Individual project colors */
+
+.project-card:nth-child(1) {
+  border-left-color: #c86f9d;
+}
+
+.project-card:nth-child(1) h3 {
+  color: #a94f7c;
+}
+
+.project-card:nth-child(2) {
+  border-left-color: #9178b7;
+}
+
+.project-card:nth-child(2) h3 {
+  color: #72599c;
+}
+
+.project-card:nth-child(3) {
+  border-left-color: #86a078;
+}
+
+.project-card:nth-child(3) h3 {
+  color: #667e5b;
+}
+
+.project-card:nth-child(4) {
+  border-left-color: #d18a9e;
+}
+
+.project-card:nth-child(4) h3 {
+  color: #aa5e76;
 }
 
 .page-header::before,
