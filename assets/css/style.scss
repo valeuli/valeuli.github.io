@@ -4,22 +4,20 @@
 @import "{{ site.theme }}";
 
 :root {
-  --background: #fdf8fb;
-  --surface: #f7f1f8;
-  --border: #e7dce9;
-  --text: #49424f;
-  --muted: #706777;
-  --purple: #7c6599;
-  --pink: #a95f86;
-  --link: #9365a8;
-}
-
-html,
-body {
-  background: var(--background);
+  --background: #f3e6f1;
+  --surface: #eadced;
+  --border: #d7c2dc;
+  --text: #443b48;
+  --muted: #6c6071;
+  --purple: #705487;
+  --pink: #a64f7a;
+  --link: #87579a;
 }
 
 body {
+  background:
+          radial-gradient(circle at top left, rgba(248, 220, 233, 0.45), transparent 35rem),
+          linear-gradient(180deg, #fdf8fb 0%, #faf8fd 100%);
   color: var(--text);
   min-height: 100vh;
 }
@@ -27,7 +25,8 @@ body {
 .page-header {
   padding: 2.5rem 1rem;
   color: var(--text);
-  background: linear-gradient(135deg, #f1dce7, #ddd7ee);
+  background: linear-gradient(135deg, #efcddd 0%, #d7ceef 100%);
+  border-bottom: 1px solid var(--border);
 }
 
 .project-name {
@@ -60,6 +59,7 @@ body {
   border: 1px solid var(--border);
   border-radius: 16px;
   overflow-wrap: anywhere;
+  box-shadow: 0 6px 18px rgba(93, 69, 104, 0.08);
 }
 
 .portfolio-sidebar li {
@@ -128,7 +128,7 @@ body {
   padding: 0.25rem 0 0.25rem 1.25rem;
   background: transparent;
   border: 0;
-  border-left: 3px solid #dfbfd2;
+  border-left: 3px solid #cd91b2;
   border-radius: 0;
   box-shadow: none;
 }
@@ -143,4 +143,3 @@ body {
 .project-card p:last-child {
   margin-bottom: 0;
 }
-
