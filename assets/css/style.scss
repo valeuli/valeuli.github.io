@@ -223,28 +223,6 @@ a:focus-visible {
   color: #aa5e76;
 }
 
-/* Resume button */
-
-.portfolio-sidebar .resume-button {
-  display: inline-block;
-  margin: 0.5rem 0 1rem;
-  padding: 0.65rem 1rem;
-  color: #ffffff;
-  background: var(--purple);
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  transition:
-    background-color 160ms ease,
-    transform 160ms ease;
-}
-
-.portfolio-sidebar .resume-button:hover {
-  color: #ffffff;
-  background: var(--pink);
-  transform: translateY(-1px);
-}
-
 /* Footer */
 
 .site-footer {
