@@ -1,4 +1,9 @@
-# Hi, I'm Juliana 👋
+---
+layout: default
+title: Juliana Ramírez
+---
+
+# About me
 
 I'm a Software Engineer with more than 6 years of experience building backend systems, APIs, integrations, and distributed architectures using TypeScript and Python.
 
@@ -40,11 +45,19 @@ Some principles that guide my work:
 
 ## Selected work
 
+<div class="projects-grid">
+
+<div class="project-card" markdown="1">
+
 ### Asynchronous reminder system
 
 At Quix, I redesigned six reminder workflows using Cloudflare Workers and Queues. Four became fully event-driven, while two combined scheduled processes with asynchronous execution.
 
 The system included retries, a dead-letter queue, and detailed events for troubleshooting. This allowed users to continue their learning journey without depending on working-hour schedules.
+
+</div>
+
+<div class="project-card" markdown="1">
 
 ### Improving an AI assistant's backend
 
@@ -52,17 +65,29 @@ At Quix, I optimized how an existing AI assistant retrieved information about co
 
 I separated static and dynamic data, introduced caching, and optimized PostgreSQL queries and functions. This reduced response times by approximately one to two seconds and lowered database load.
 
+</div>
+
+<div class="project-card" markdown="1">
+
 ### AI-powered content generation
 
 At Platzi, I developed a tool using OpenAI, Python, FastAPI, and AWS Lambda to transform class transcripts into structured articles.
 
 The generated content could also help answer unanswered student questions. The solution reduced processing time by 91% and supported both education and SEO workflows.
 
+</div>
+
+<div class="project-card" markdown="1">
+
 ### International transfer integration
 
 At Karta, I adapted an international transfer flow for a financial product that combined a credit card with a WhatsApp assistant.
 
-I worked with TypeScript, AWS queues, and an external financial provider to process transfers asynchronously and track their status through provider events. The functionality reached an internal production stage but was not publicly released.
+I worked with TypeScript, Amazon SQS, and an external financial provider to process transfers asynchronously and track their status through provider events. The feature was deployed for internal validation but was not publicly released.
+
+</div>
+
+</div>
 
 ## My journey into engineering
 
