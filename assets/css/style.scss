@@ -1,8 +1,8 @@
 ---
 ---
 
-@import "{{ site.theme }}";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Sacramento&display=swap");
+@import "{{ site.theme }}";
 
 :root {
   --background: #f3e6f1;
@@ -17,7 +17,7 @@
 
 html,
 body {
-  background: #f5eaf3 !important;
+  background: var(--background) !important;
   color: var(--text);
 }
 
@@ -25,6 +25,8 @@ body {
   min-height: 100vh;
   font-family: "DM Sans", sans-serif;
 }
+
+/* Header */
 
 .page-header {
   position: relative;
@@ -53,6 +55,30 @@ body {
   opacity: 1;
 }
 
+.page-header::before,
+.page-header::after {
+  position: absolute;
+  z-index: 0;
+  color: rgba(91, 111, 72, 0.25);
+  font-size: 4rem;
+  transform: rotate(-18deg);
+}
+
+.page-header::before {
+  content: "❧";
+  top: 0.5rem;
+  left: 7%;
+}
+
+.page-header::after {
+  content: "❧";
+  right: 7%;
+  bottom: 0.25rem;
+  transform: rotate(160deg);
+}
+
+/* Main layout */
+
 .main-content {
   max-width: 1100px;
   color: var(--text);
@@ -66,19 +92,17 @@ body {
   align-items: start;
 }
 
+/* Sidebar */
+
 .portfolio-sidebar {
   position: sticky;
   top: 2rem;
   padding: 1.5rem;
+  overflow-wrap: anywhere;
   background: #ead8ec;
   border: 1px solid #d6bddb;
   border-radius: 16px;
-  overflow-wrap: anywhere;
   box-shadow: 0 6px 18px rgba(93, 69, 104, 0.1);
-}
-
-.portfolio-sidebar li {
-  margin-bottom: 0.4rem;
 }
 
 .portfolio-sidebar h2 {
@@ -89,6 +113,12 @@ body {
 .portfolio-sidebar ul {
   padding-left: 1.1rem;
 }
+
+.portfolio-sidebar li {
+  margin-bottom: 0.4rem;
+}
+
+/* Typography */
 
 .main-content h1,
 .main-content h2 {
@@ -109,30 +139,23 @@ body {
 .main-content a {
   color: var(--link);
   font-weight: 500;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 160ms ease;
 }
 
-.site-footer {
-  display: none;
+.main-content a:hover {
+  color: var(--pink);
 }
 
-@media screen and (max-width: 760px) {
-  .portfolio-grid {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .portfolio-sidebar {
-    position: static;
-  }
-
-  .project-name {
-    font-size: 1.8rem;
-  }
-
-  .main-content {
-    font-size: 0.96rem;
-  }
+a:focus-visible {
+  outline: 3px solid rgba(166, 79, 122, 0.35);
+  outline-offset: 4px;
+  border-radius: 4px;
 }
+
+/* Projects */
+
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -146,6 +169,9 @@ body {
   border-left: 3px solid #cd91b2;
   border-radius: 0;
   box-shadow: none;
+  transition:
+    border-color 160ms ease,
+    transform 160ms ease;
 }
 
 .project-card h3 {
@@ -157,6 +183,10 @@ body {
 
 .project-card p:last-child {
   margin-bottom: 0;
+}
+
+.project-card:hover {
+  transform: translateX(3px);
 }
 
 /* Individual project colors */
@@ -193,24 +223,65 @@ body {
   color: #aa5e76;
 }
 
-.page-header::before,
-.page-header::after {
-  position: absolute;
-  z-index: 0;
-  color: rgba(91, 111, 72, 0.25);
-  font-size: 4rem;
-  transform: rotate(-18deg);
+/* Resume button */
+
+.portfolio-sidebar .resume-button {
+  display: inline-block;
+  margin: 0.5rem 0 1rem;
+  padding: 0.65rem 1rem;
+  color: #ffffff;
+  background: var(--purple);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition:
+    background-color 160ms ease,
+    transform 160ms ease;
 }
 
-.page-header::before {
-  content: "❧";
-  top: 0.5rem;
-  left: 7%;
+.portfolio-sidebar .resume-button:hover {
+  color: #ffffff;
+  background: var(--pink);
+  transform: translateY(-1px);
 }
 
-.page-header::after {
-  content: "❧";
-  right: 7%;
-  bottom: 0.25rem;
-  transform: rotate(160deg);
+/* Footer */
+
+.site-footer {
+  display: none;
+}
+
+.portfolio-footer {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-align: center;
+  border-top: 1px solid var(--border);
+}
+
+/* Mobile */
+
+@media screen and (max-width: 760px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .portfolio-sidebar {
+    position: static;
+  }
+
+  .project-name {
+    font-size: 3rem;
+  }
+
+  .main-content {
+    font-size: 0.96rem;
+  }
+
+  .page-header::before,
+  .page-header::after {
+    font-size: 2.75rem;
+  }
 }
