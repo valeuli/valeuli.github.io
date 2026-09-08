@@ -27,6 +27,14 @@ For me, software is not only about making something work. It should solve a real
 - [LinkedIn](https://www.linkedin.com/in/valentinajrm/)
 - [GitHub](https://github.com/valeuli)
 - [Email me](mailto:julianavramirezm@gmail.com)
+<a
+  class="resume-button"
+  href="https://drive.google.com/file/d/19p29UXPaqdtQRe15mi4JaE5JDZr2euVS/view"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Download my resume
+</a>
 </aside>
 
 <main class="portfolio-content" markdown="1">
@@ -102,3 +110,6 @@ I'm interested in products that solve real problems for users, especially those 
 
 I'm looking for a collaborative team where I can continue growing in architecture, infrastructure, product development, and frontend fundamentals while delivering meaningful value.
 
+<footer class="portfolio-footer">
+  Built with care by Juliana Ramírez.
+</footer>
