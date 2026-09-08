@@ -14,10 +14,12 @@
   --link: #9365a8;
 }
 
+html,
 body {
-  background:
-    radial-gradient(circle at top left, rgba(248, 220, 233, 0.45), transparent 35rem),
-    linear-gradient(180deg, #fdf8fb 0%, #faf8fd 100%);
+  background: var(--background);
+}
+
+body {
   color: var(--text);
   min-height: 100vh;
 }
@@ -25,7 +27,7 @@ body {
 .page-header {
   padding: 2.5rem 1rem;
   color: var(--text);
-  background: linear-gradient(135deg, #f8dce9, #e4ddf8);
+  background: linear-gradient(135deg, #f1dce7, #ddd7ee);
 }
 
 .project-name {
@@ -141,8 +143,4 @@ body {
 .project-card p:last-child {
   margin-bottom: 0;
 }
-@media screen and (max-width: 900px) {
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-}
+
