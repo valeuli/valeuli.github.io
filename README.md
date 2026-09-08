@@ -1,10 +1,3 @@
----
-layout: default
-title: Juliana Ramírez
----
-
-# About me
-
 I'm a Software Engineer with more than 6 years of experience building backend systems, APIs, integrations, and distributed architectures using TypeScript and Python.
 
 I care deeply about the quality of what I build. Before delivering a feature, I try to understand the real requirement, identify edge cases, write automated tests, test the complete flow manually, and monitor its behavior in production.
