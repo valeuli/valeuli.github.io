@@ -4,9 +4,9 @@
 @import "{{ site.theme }}";
 
 :root {
-  --background: #fffafd;
-  --surface: #faf6fc;
-  --border: #eadff0;
+  --background: #fdf8fb;
+  --surface: #f7f1f8;
+  --border: #e7dce9;
   --text: #49424f;
   --muted: #706777;
   --purple: #7c6599;
@@ -15,8 +15,11 @@
 }
 
 body {
-  background: var(--background);
+  background:
+    radial-gradient(circle at top left, rgba(248, 220, 233, 0.45), transparent 35rem),
+    linear-gradient(180deg, #fdf8fb 0%, #faf8fd 100%);
   color: var(--text);
+  min-height: 100vh;
 }
 
 .page-header {
@@ -111,5 +114,28 @@ body {
 
   .main-content {
     font-size: 0.96rem;
+  }
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  padding: 1.25rem;
+  background: #faf6fc;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(93, 72, 110, 0.06);
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
   }
 }
