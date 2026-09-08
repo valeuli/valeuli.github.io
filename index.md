@@ -24,18 +24,14 @@ For me, software is not only about making something work. It should solve a real
 - **Frontend fundamentals:** React, HTML, CSS
 
 ## Let's connect
-<a
-  class="resume-button"
-  href="https://drive.google.com/file/d/19p29UXPaqdtQRe15mi4JaE5JDZr2euVS/view"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Download my resume
-</a>
+
+<a class="resume-button" href="https://drive.google.com/file/d/19p29UXPaqdtQRe15mi4JaE5JDZr2euVS/view" target="_blank" rel="noopener noreferrer">Download my resume</a>
 
 - [LinkedIn](https://www.linkedin.com/in/valentinajrm/)
 - [GitHub](https://github.com/valeuli)
 - [Email me](mailto:julianavramirezm@gmail.com)
+
+</aside>
 
 <main class="portfolio-content" markdown="1">
 
@@ -113,3 +109,7 @@ I'm looking for a collaborative team where I can continue growing in architectur
 <footer class="portfolio-footer">
   Built with care by Juliana Ramírez.
 </footer>
+
+</main>
+
+</div>
