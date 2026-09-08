@@ -118,22 +118,29 @@ body {
 }
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
 }
 
 .project-card {
-  padding: 1.25rem;
-  background: #faf6fc;
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  box-shadow: 0 4px 14px rgba(93, 72, 110, 0.06);
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  background: transparent;
+  border: 0;
+  border-left: 3px solid #dfbfd2;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .project-card h3 {
   margin-top: 0;
+  margin-bottom: 0.65rem;
+  color: var(--pink);
+  font-size: 1.1rem;
 }
 
+.project-card p:last-child {
+  margin-bottom: 0;
+}
 @media screen and (max-width: 900px) {
   .projects-grid {
     grid-template-columns: 1fr;
