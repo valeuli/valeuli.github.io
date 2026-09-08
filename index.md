@@ -17,7 +17,7 @@ For me, software is not only about making something work. It should solve a real
 ## Technologies
 - Languages: TypeScript, Python
 - Backend: Node.js, Hono, FastAPI, Django
-- Databases:** PostgreSQL, SQL, MongoDB
+- Databases: PostgreSQL, SQL, MongoDB
 - Distributed systems: Cloudflare Workers, Cloudflare Queues, AWS Lambda, Amazon SQS
 - Development: REST APIs, asynchronous processing, automated testing, Docker, CI/CD
 - AI integrations: OpenAI APIs and prompt-based workflows
